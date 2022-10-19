@@ -1,0 +1,44 @@
+header > nav{
+	height: 50px;
+	width: 100%;
+}
+header > nav li{
+	margin-right: 45px;
+	display: inline-block;
+}
+header > nav ul{
+	padding-top: 12px;
+	padding-left: 5%;
+	width: 100%;
+	position: relative;
+}
+.nav-button{
+	color: white;
+	text-decoration: none;
+	font-size: 14pt;
+}
+label.nav-button {
+	/*position: relative;*/
+	display: block;
+    margin: auto;
+    width: 12em;
+    padding: 10px;
+}
+header{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	background-color: #022B3B;
+	z-index: 2;
+}
+.exit{
+	float: right;
+}
+
+#maincontainer{
+	padding-top: 75px;
+}
+
+header nav ul li a.active{
+	color: yellow;
+}

@@ -1,0 +1,80 @@
+.form_auth_block{
+    width: 500px;
+    height: calc(100vh - 50px);
+    margin: 0 auto;
+    background:#008b8b;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.form_auth_block_head_text{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+    opacity: 0.7;
+}
+.form_auth_block label{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #ffffff;
+    opacity: 0.7;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form_auth_block input[type="text"],
+.form_auth_block input[type="password"]{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 45px;
+  border-radius: 10px;  
+  border:none;
+  outline: none;
+}
+input:focus {
+  color: #000000;
+  border-radius: 10px;
+  border: 2px solid #436fea;
+}
+.form_auth_button{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+.welcome > a{
+    color: green;
+    text-align: center;
+    height: 23px;
+    width: 150px;
+    font:  14pt solid;
+    text-decoration: none;
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 7px whitesmoke;
+}
+.errorMessage{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px white;
+    padding: 5px;
+    color: darkred;
+}
+.messageContainer{
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {color:#3f3f44; padding-left: 10px;} 
+::-moz-placeholder          {color:#3f3f44; padding-left: 10px;} 
+:-moz-placeholder           {color:#3f3f44; padding-left: 10px;} 
+:-ms-input-placeholder      {color:#3f3f44; padding-left: 10px;} 

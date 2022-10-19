@@ -1,0 +1,47 @@
+.table_test tr{ /*id*/
+    width: 60%;
+}
+
+.table_test tr{ /*id*/
+    width: 100%;
+}
+.table_test td:nth-child(1), .table_test th:nth-child(1){ /*Добавлен*/
+    width: 20%;
+}
+.table_test td:nth-child(2), .table_test th:nth-child(2){ /*Статус*/
+    width: 15%;
+}
+.table_test td:nth-child(3), .table_test th:nth-child(3){ /*Комментарий*/
+    width: 40%;
+    overflow: auto;
+}
+.table_test td:nth-child(4), .table_test th:nth-child(4){ /*Пользователь*/
+    width: 25%;
+}
+table.table_test {
+    border-collapse: collapse;
+    margin-left: 70px;
+}
+
+.table_test th {
+    color: #ffebcd;
+    background: #008b8b;
+    cursor: pointer;
+}
+
+.table_test td,
+.table_test th {
+    height: 40px;
+    min-height: 39px;
+    text-align: center;
+    border-right: 1px solid #846868;
+    padding: 6px;
+}
+
+.table_test tbody tr:nth-child(even) {
+    background: #e3e3e3;
+}
+
+#journal{
+    margin-bottom: 30px;
+}

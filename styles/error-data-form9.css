@@ -1,0 +1,140 @@
+#error-data-form label{
+	margin-left: 70px;
+	width: 130px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 4px;
+	text-align: left;
+	font: bold 12pt "Yu Gothic UI";
+}
+#error-data-form .editable-data{
+	margin-right: 10px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font: 12pt "Yu Gothic UI";
+}
+
+#error-data-form textarea.editable-data{
+	width: 500px;
+	padding-bottom: 6px;
+}
+
+#error-data-form select.editable-data{
+	width: 200px;
+}
+
+#error-data-form > div{
+	margin: 10px 0;
+	width: 100%;
+}
+
+h1 {
+	margin-left: 225px;
+	font: bold "Yu Gothic UI";
+}
+h2 {
+	margin-left: 70px;
+	font: bold "Yu Gothic UI";
+}
+#comment_short, 
+#comment_full{
+	min-height: 39px;
+}
+
+#err_form_edit_btn,
+#err_form_noedit_btn,
+#err_form_submit_btn{
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 1px ridge #f3c846;
+}
+
+#err_form_edit_btn,
+#err_form_submit_btn{
+	color: #ffffff ;
+	background: #008b8b;
+}
+#err_form_noedit_btn{
+	color: #008b8b ;
+	background: #ffffff;
+}
+#err_form_submit_btn,
+#err_form_noedit_btn{
+	display: none;
+}
+
+#error-data-form > div.controls{
+	width: 725px;
+}
+
+.validMessage{
+	color: red;
+	font: 10pt bold "Arial Narrow";
+	display: inline-block;
+	visibility: hidden;
+	vertical-align: bottom;
+}
+
+.status_block > div,.status_block > form{
+	display: block;
+	/*width: 100%;*/
+}
+#status_controls{
+	display: inline-block;
+}
+.status_block > div > label{
+	margin-left: 70px;
+	width: 130px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 4px;
+	text-align: left;
+	font: bold 12pt "Yu Gothic UI";
+}
+
+#status_current{
+	margin-right: 10px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font: 12pt "Yu Gothic UI";
+	padding-bottom: 6px;
+}
+#label1, #label2{
+	display: inline-block;
+	vertical-align: top;
+	padding: 4px;
+	text-align: left;
+	font: bold 12pt "Yu Gothic UI";
+}
+#label1{
+	margin-left: 70px;
+	width: 445px;
+}
+#label2{
+	margin-left: 70px;
+	width: 200px;
+}
+.status_block form > textarea{
+	margin-left: 70px;
+	display: inline-block;
+	vertical-align: top;
+	font: 12pt "Yu Gothic UI";
+	width: 500px;
+	padding-bottom: 6px;
+}
+.err_status_update_btn{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 3px 6px;
+	border: 1px ridge #f3c846;
+	color: #ffffff ;
+	background: #008b8b;
+}

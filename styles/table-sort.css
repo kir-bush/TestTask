@@ -1,0 +1,109 @@
+ table.table_sort {
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.table_sort th {
+    color: #ffebcd;
+    background: #008b8b;
+    cursor: pointer;
+}
+
+.table_sort td,
+.table_sort th {
+    height: 40px;
+    min-height: 39px;
+    text-align: center;
+    border-right: 1px solid #846868;
+    padding: 6px;
+}
+
+.table_sort tbody tr:nth-child(even) {
+    background: #e3e3e3;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    /*position: relative;*/
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    right: 8px;
+    /*position: absolute;*/
+}
+
+th.sorted[data-order="-1"]::after {
+	content: " ▲"
+}
+
+th.sorted[data-order="1"]::after {
+	content: " ▼"
+}
+.table_sort a{
+    color: black;
+}
+#errors-table table{
+    width: 80%;
+    margin-left: 1vw;
+}
+
+#errors-table tr{ /*id*/
+    width: 100%;
+}
+#errors-table td:nth-child(1), #errors-table th:nth-child(1){ /*id*/
+    width: 3%;
+}
+#errors-table td:nth-child(2), #errors-table th:nth-child(2){ /*date*/
+    width: 7%;
+}
+#errors-table td:nth-child(3), #errors-table th:nth-child(3){ /*comment*/
+    width: 12%;
+    overflow: auto;
+}
+#errors-table td:nth-child(4), #errors-table th:nth-child(4){ /*description*/
+    width: 50%;
+}
+#errors-table td:nth-child(5), #errors-table th:nth-child(5){ /*status*/
+    width: 6%;
+}
+#errors-table td:nth-child(6), #errors-table th:nth-child(6){ /*urgency*/
+    width: 7%;
+}
+#errors-table td:nth-child(7), #errors-table th:nth-child(7){ /*critical*/
+    width: 8%;
+}
+#errors-table td:nth-child(8), #errors-table th:nth-child(8){ /*Подробнее*/ 
+    width: 7%;
+    /*border-right: none;*/
+}
+
+#users-table{
+    margin-left: 70px;
+}
+
+#users-table tr{ /*id*/
+    width: 60%;
+}
+#users-table td:nth-child(1), #users-table th:nth-child(1){ /*id*/
+    width: 5%;
+}
+#users-table td:nth-child(2), #users-table th:nth-child(2){ /*login*/
+    width: 16%;
+}
+#users-table td:nth-child(3), #users-table th:nth-child(3){ /*password*/
+    width: 16%;
+    overflow: auto;
+}
+#users-table td:nth-child(4), #users-table th:nth-child(4){ /*name*/
+    width: 17%;
+}
+#users-table td:nth-child(5), #users-table th:nth-child(5){ /*surname*/
+    width: 16%;
+}
+#errors-table td:nth-child(6), #errors-table th:nth-child(6){ /*role*/
+    width: 15%;
+}
+#errors-table td:nth-child(7), #errors-table th:nth-child(7){ /*isActive*/
+    width: 15%;
+}

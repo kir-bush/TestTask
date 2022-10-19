@@ -1,0 +1,60 @@
+/*РЕДАКТИРОВАНИЕ ВКЛЮЧЕНО*/
+textarea.editable-data{
+	resize: none;
+}
+
+input.editable-data{
+
+}
+
+select.editable-data{
+	cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 0.85em auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+}
+
+textarea.editable-data, 
+input.editable-data,
+select.editable-data{
+	box-shadow: 0 0 0 1px black;
+	border-radius: 5px;
+	padding: 4px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	o-appearance: none;
+
+}
+ 
+/*РЕДАКТИРОВАНИЕ ВыКЛЮЧЕНО*/
+
+/*Отключаем реакцию мыши на элементы*/
+/*textarea.editable-data:read-only:focus, 
+input.editable-data:read-only:focus{
+	outline: none;
+}*/
+textarea.editable-data:read-only:hover, 
+input.editable-data:read-only:hover{
+	cursor: inherit;
+}
+
+select.editable-data[readonly]{
+	pointer-events: none;
+	background-image: none;
+}
+
+/*Оформление, похожее на обычный текст*/
+textarea.editable-data:read-only, 
+input.editable-data:read-only,
+select.editable-data[readonly]{
+	border: none;
+	outline: none;
+	box-shadow: none; 
+}
+
+select:read-only::-ms-expand {
+  display: none;
+}
+/*  ----------------------------------------------   */
